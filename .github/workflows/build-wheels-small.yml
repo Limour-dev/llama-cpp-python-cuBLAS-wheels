@@ -67,7 +67,7 @@ jobs:
         id: set-matrix
         run: |
           $matrix = @{
-              'os' = 'windows-latest'
+              'os' = @('windows-latest')
               'pyver' = "3.10", "3.11"
               'cuda' = "12.1.1", "12.2.0"
               'releasetag' = "wheels", "AVX512"
