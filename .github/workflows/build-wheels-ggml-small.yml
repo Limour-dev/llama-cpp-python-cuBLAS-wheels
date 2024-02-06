@@ -1,4 +1,4 @@
-name: Build GGML Wheels
+name: Build GGML Wheels Small
 
 on:
   workflow_dispatch:
